@@ -1,12 +1,8 @@
-import os
-from dotenv import load_dotenv
-from langchain.chat_models import init_chat_model
+def main():
+        # Your main program logic goes here
+        import LangChMod
+        # Call langchain module function
+        LangChMod.LangChFn()
 
-
-load_dotenv()
-
-
-model = init_chat_model("llama-3.3-70b-versatile", model_provider="groq")
-# model = init_chat_model("gpt-4o-mini", model_provider="openai")
-response = model.invoke("who is rahul dravid?")
-print(response.content)
+if __name__ == "__main__":
+    main()
