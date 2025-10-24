@@ -1,8 +1,11 @@
 def main():
-        # Your main program logic goes here
-        import LangChMod
-        # Call langchain module function
-        LangChMod.LangChFn()
+        # import LangChainMod
+        # # Call langchain module function
+        # LangChainMod.LangChFn()
+
+        import LangGraphMod
+        # Call langgraph module function
+        LangGraphMod.LangGrFn()
 
 if __name__ == "__main__":
     main()
