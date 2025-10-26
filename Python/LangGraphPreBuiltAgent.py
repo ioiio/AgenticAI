@@ -30,7 +30,7 @@ def LangGrPreBAgentFn():
     # # Save graph in image
     # try:
     #     img = agent.get_graph().draw_mermaid_png()
-    #     with open("graph2.png", "wb") as f:
+    #     with open("graph3.png", "wb") as f:
     #         f.write(img)
     # except Exception:
     #     pass
@@ -40,5 +40,19 @@ def LangGrPreBAgentFn():
     prompt= "create a new directory with name Test in the current location and inside that create a file named example.txt"
     response = agent.invoke(
         {"messages": [{"role": "user", "content": prompt}]}
-    )   
-    print(response)
+    ) 
+    print(response["messages"][-1].content)
+    
+    # prompt= "Who is dhoni?"
+    # response = agent.invoke(
+    #     {"messages": [{"role": "user", "content": prompt}]}
+    # ) 
+    # print(response["messages"][-1].content)
+
+    # print("---\n")
+    #  # Run the agents
+    # prompt= "Who did he born?"
+    # response = agent.invoke(
+    #     {"messages": [{"role": "user", "content": prompt}]}
+    # )   
+    # print(response["messages"][-1].content)

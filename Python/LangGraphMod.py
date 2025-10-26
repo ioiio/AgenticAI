@@ -33,12 +33,13 @@ def LangGrFn():
     # Save graph in image
     # w → Write mode (creates the file if it does not exist, or overwrites if it does).
     # b → Binary mode (means you are writing binary data, like images or audio—not text).
-    try:
-        img = graph.get_graph().draw_mermaid_png()
-        with open("graph.png", "wb") as f:
-            f.write(img)
-    except Exception:
-        pass
+    
+    # try:
+    #     img = graph.get_graph().draw_mermaid_png()
+    #     with open("graph.png", "wb") as f:
+    #         f.write(img)
+    # except Exception:
+    #     pass
 
     def stream_graph_updates(user_input: str):
         for event in graph.stream({"messages": [{"role": "user", "content": user_input}]}):
