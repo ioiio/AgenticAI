@@ -24,7 +24,7 @@ def LangGrPreBAgentFn():
     agent = create_react_agent(
         model="groq:llama-3.3-70b-versatile", 
         tools=[addFile, addFolder], 
-        prompt="You are a helpful assistant" 
+        # prompt="You are a helpful assistant" 
     )
 
     # # Save graph in image

@@ -2,3 +2,4 @@ Python/.env
 Python/__pycache__/LangChainMod.cpython-313.pyc
 Python/__pycache__/LangGraphPreBuiltAgent.cpython-313.pyc
 Python/__pycache__/LangGraphAgent_Memory.cpython-313.pyc
+Python/__pycache__/LangGraphAgent_StrOutput.cpython-313.pyc

@@ -8,8 +8,7 @@ def LangGrAgentMemFn():
     agent = create_react_agent(
         model="groq:llama-3.3-70b-versatile", 
         tools=[], 
-        checkpointer=checkpointer,
-        prompt="You are a helpful assistant" 
+        checkpointer=checkpointer
     )
 
     config = {"configurable": {"thread_id":"1"}} # Thread id is like session or conversation id

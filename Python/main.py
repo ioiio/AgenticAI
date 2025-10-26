@@ -1,13 +1,17 @@
 def main():
-        # Call langgraph pre-built agent (tools, memory and structured output)
-        import LangGraphAgent_Memory
-        LangGraphAgent_Memory.LangGrAgentMemFn()
+        # Call langgraph pre-built agent with structured output
+        import LangGraphAgent_StrOutput
+        LangGraphAgent_StrOutput.LangGrAgentStrOpFn()
 
-        # # Call langgraph pre-built agent (tools, memory and structured output)
+        # # Call langgraph pre-built agent with memory
+        # import LangGraphAgent_Memory
+        # LangGraphAgent_Memory.LangGrAgentMemFn()
+
+        # # Call langgraph pre-built agent with tools
         # import LangGraphPreBuiltAgent
         # LangGraphPreBuiltAgent.LangGrPreBAgentFn()
 
-        # # Call langgraph module function
+        # # Call langgraph module tools function
         # import LangGraphMod
         # LangGraphMod.LangGrFn()
 
