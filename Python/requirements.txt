@@ -2,3 +2,4 @@ langchain[openai]
 langchain[groq]
 python-dotenv
 langgraph
+langchain_mcp_adapters

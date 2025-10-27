@@ -1,7 +1,11 @@
 def main():
-        # Call langgraph pre-built agent with structured output
-        import LangGraphAgent_StrOutput
-        LangGraphAgent_StrOutput.LangGrAgentStrOpFn()
+        # # Call langgraph MCP function
+        import LangGraphMCP
+        LangGraphMCP.LangGrMCPFn()
+
+        # # Call langgraph pre-built agent with structured output
+        # import LangGraphAgent_StrOutput
+        # LangGraphAgent_StrOutput.LangGrAgentStrOpFn()
 
         # # Call langgraph pre-built agent with memory
         # import LangGraphAgent_Memory
