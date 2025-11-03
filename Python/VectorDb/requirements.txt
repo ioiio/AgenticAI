@@ -1,3 +1,8 @@
 chromadb
 python-dotenv
 google.genai
+langchain
+langchain-google-genai
+langchain-community
+beautifulsoup4
+langchain-chroma
