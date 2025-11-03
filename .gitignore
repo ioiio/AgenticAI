@@ -5,3 +5,17 @@ Python/AgenticApp/__pycache__/LangGraphAgent_StrOutput.cpython-313.pyc
 Python/AgenticApp/__pycache__/LangGraphMCP.cpython-313.pyc
 Python/AgenticApp/__pycache__/StreamlitApp.cpython-313.pyc
 Python/AgenticApp/.env
+Python/VectorDb/ChromaDb/chroma.sqlite3
+Python/VectorDb/ChromaDb/374d6166-712b-45c0-8f73-3041ef48870d/data_level0.bin
+Python/VectorDb/ChromaDb/374d6166-712b-45c0-8f73-3041ef48870d/header.bin
+Python/VectorDb/ChromaDb/374d6166-712b-45c0-8f73-3041ef48870d/length.bin
+Python/VectorDb/ChromaDb/374d6166-712b-45c0-8f73-3041ef48870d/link_lists.bin
+Python/VectorDb/ChromaDb/80446d10-9382-4c7e-835c-ce6353df7a64/data_level0.bin
+Python/VectorDb/ChromaDb/80446d10-9382-4c7e-835c-ce6353df7a64/header.bin
+Python/VectorDb/ChromaDb/80446d10-9382-4c7e-835c-ce6353df7a64/length.bin
+Python/VectorDb/ChromaDb/80446d10-9382-4c7e-835c-ce6353df7a64/link_lists.bin
+Python/VectorDb/ChromaDb/cc24835a-a2f8-444a-a3e3-90bf31d8951d/data_level0.bin
+Python/VectorDb/ChromaDb/cc24835a-a2f8-444a-a3e3-90bf31d8951d/header.bin
+Python/VectorDb/ChromaDb/cc24835a-a2f8-444a-a3e3-90bf31d8951d/length.bin
+Python/VectorDb/ChromaDb/cc24835a-a2f8-444a-a3e3-90bf31d8951d/link_lists.bin
+Python/VectorDb/.env
