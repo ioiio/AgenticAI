@@ -11,17 +11,17 @@ def LangGrMCPFn():
     async def run_agent():
         client = MultiServerMCPClient(
             {
-                # "github": {
-                #     "command": "npx",
-                #     "args": [
-                #         "-y",
-                #         "@modelcontextprotocol/server-github"
-                #     ],
-                #     "env": {
-                #         "GITHUB_PERSONAL_ACCESS_TOKEN": GITHUB_TOKEN
-                #     },
-                #     "transport": "stdio"
-                # },
+                "github": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "@modelcontextprotocol/server-github"
+                    ],
+                    "env": {
+                        "GITHUB_PERSONAL_ACCESS_TOKEN": GITHUB_TOKEN
+                    },
+                    "transport": "stdio"
+                },
 
                 # "filesystem": {
                 #     "command": "npx",
@@ -48,8 +48,8 @@ def LangGrMCPFn():
         print ("***********************")
 
         agent = create_react_agent("groq:llama-3.3-70b-versatile", tools)
-        prompt="Create a new file hello.txt in the Test directory."
-        # prompt="Plz list the files present in repository prakash-manit/AgenticAI?"
+        #prompt="Create a new file hello.txt in the Test directory."
+        prompt="Plz list the files present in repository prakash-manit/AgenticAI/Python?"
         # prompt="create a new file named BinarySearch.py in repository prakash-manit/Python and add binary search algorithm code in it."
         response = await agent.ainvoke({"messages": prompt})
         print(response["messages"][-1].content)

@@ -4,3 +4,4 @@ langgraph
 langchain_mcp_adapters
 streamlit
 google.genai
+langsmith
