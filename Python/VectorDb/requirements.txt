@@ -6,3 +6,4 @@ langchain-google-genai
 langchain-community
 beautifulsoup4
 langchain-chroma
+langsmith
