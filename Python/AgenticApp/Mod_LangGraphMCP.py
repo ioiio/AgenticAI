@@ -36,10 +36,9 @@ def LangGrMCPFn():
                 "TechyPrakashFileSystem": {
                     "command": "python",
                     "args": [
-                        "./FileSystemMCPServer.py"
-                    ],
-                     "transport":"stdio"
-                }
+                        "./MCPServer_FileSystem.py"
+                    ],               
+                },"transport":"stdio"
             }
         )
         

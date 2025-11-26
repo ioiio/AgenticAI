@@ -1,7 +1,9 @@
 langchain[groq]
+langchain-google-genai
 python-dotenv
 langgraph
 langchain_mcp_adapters
 streamlit
 google.genai
 langsmith
+langgraph_supervisor
