@@ -3,3 +3,5 @@ Python/AgenticApp/.env
 Python/VectorDb/ChromaDb/
 Python/VectorDb/.env
 Python/VectorDb/chroma_genai
+DotNet/AI_Console/obj/
+DotNet/AI_Console/bin/
