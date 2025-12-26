@@ -7,3 +7,4 @@ streamlit
 google.genai
 langsmith
 langgraph_supervisor
+dotenv

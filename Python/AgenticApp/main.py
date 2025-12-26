@@ -1,7 +1,11 @@
 def main():
-        # Call langgraph MCP function
-        import Mod_MultiAgent2
-        Mod_MultiAgent2.MultiAgentFn2()
+        # Call Ollama function
+        import Mod_Ollama
+        Mod_Ollama.OllamaFn()
+
+        # # Call langgraph MCP function
+        # import Mod_MultiAgent2
+        # Mod_MultiAgent2.MultiAgentFn2()
 
         # # Call langgraph MCP function
         # import Mod_MultiAgent
