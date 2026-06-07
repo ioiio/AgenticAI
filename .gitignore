@@ -5,3 +5,5 @@ Python/VectorDb/.env
 Python/VectorDb/chroma_genai
 DotNet/AI_Console/obj/
 DotNet/AI_Console/bin/
+Python/AI_Engg_Batch1/__pycache__/
+Python/AI_Engg_Batch1/.env
