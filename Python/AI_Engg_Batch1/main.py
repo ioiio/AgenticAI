@@ -1,8 +1,8 @@
 def main():
 
         # Call langchain module function
-        import Mod_LangChain
-        Mod_LangChain.LangChFn()
+        import Day1_LangChain2
+        Day1_LangChain2.LangChFn()
 
 if __name__ == "__main__":
     main()
