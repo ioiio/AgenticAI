@@ -1,3 +1,4 @@
 langchain[groq]
 python-dotenv
 groq[pydantic]
+langchain-core
