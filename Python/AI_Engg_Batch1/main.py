@@ -2,8 +2,11 @@ def main():
         # import Demo_AgenticRAG
         # Demo_AgenticRAG.AgenticRAG()
 
-        import Day3_LCEL_MultiStep
-        Day3_LCEL_MultiStep.LCEL_Pipeline()
+        import Day4_WriterCritic
+        Day4_WriterCritic.WriterCritic()
+
+        # import Day3_LCEL_MultiStep
+        # Day3_LCEL_MultiStep.LCEL_Pipeline()
 
         # import Day2_LLM_Pipeline
         # Day2_LLM_Pipeline.LLM_Pipeline()
