@@ -2,3 +2,8 @@ langchain[groq]
 python-dotenv
 groq[pydantic]
 langchain-core
+langchain-text-splitters
+chromadb 
+faiss-cpu 
+numpy
+google-genai

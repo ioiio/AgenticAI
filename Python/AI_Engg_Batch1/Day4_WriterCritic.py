@@ -107,7 +107,7 @@ def WriterCritic():
                 
                 # 2. Critic Phase
                 print("[Critic] Evaluating current draft...")
-                evaluation = self.(pr_critic_agentompt, criteria, current_draft)
+                evaluation = self._critic_agent(prompt, criteria, current_draft)
                 
                 print(f"[Evaluation Results] Score: {evaluation.score}/10 | Meets Criteria: {evaluation.requirements_met}")
                 print(f"[Critic Feedback]: {evaluation.feedback}\n")
