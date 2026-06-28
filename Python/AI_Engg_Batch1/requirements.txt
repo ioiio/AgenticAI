@@ -7,3 +7,6 @@ chromadb
 faiss-cpu 
 numpy
 google-genai
+fastapi
+uvicorn
+rank_bm25

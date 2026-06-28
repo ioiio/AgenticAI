@@ -1,9 +1,12 @@
 def main():
-        # import Demo_AgenticRAG
-        # Demo_AgenticRAG.AgenticRAG()
+        # import Day7_MCP
+        # Day7_MCP.MCP_Fn()
 
-        import Day5_RAG
-        Day5_RAG.RAG_Pipeline()
+        import Day6_AdvRAG
+        Day6_AdvRAG.AdvRAGPipeline()
+
+        # import Day5_RAG
+        # Day5_RAG.RAG_Pipeline()
 
         # import Day4_WriterCritic
         # Day4_WriterCritic.WriterCritic()
